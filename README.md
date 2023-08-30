@@ -34,7 +34,7 @@ Marie Curie provides a set of basic mathematical operations and a unique structu
 
 Here's an example code snippet written in Marrie Curie:
 
-\`\`\`marie
+```py
 p(s([72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]))  # Prints "Hello World"
 v.boi = b(1)  # Assigns the boolean value True to the variable boi
 ?(v.boi){
@@ -42,7 +42,7 @@ v.boi = b(1)  # Assigns the boolean value True to the variable boi
 }{
     p(s([70, 97, 108, 115, 101]))  # Prints "False"
 }
-\`\`\`
+```
 
 In this example, the code prints "Hello World" to the console using the \`p\` function and the \`s\` function to convert ASCII codes to
 characters. It also demonstrates the usage of variables, conditional statements, and boolean operations.
